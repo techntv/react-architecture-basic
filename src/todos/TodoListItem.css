@@ -32,3 +32,13 @@ button {
     background-color: #ee2222;
     margin-left: 8px;
 }
+
+.todo-completed {
+    text-decoration: line-through;
+    color: #ccc
+}
+
+.btn-disabled {
+    background-color: #ccc;
+    pointer-events: none
+}
